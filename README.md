@@ -1,2 +1,1 @@
-# EuriskoAssignment1
-Portfolio Assignment
+I created this assignment with javascript, vite and tailind did not work with me and i ran out of time

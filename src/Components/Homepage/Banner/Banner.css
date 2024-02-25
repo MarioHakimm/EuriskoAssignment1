@@ -1,0 +1,61 @@
+#homeBannerMain {
+    height: calc(100vh - (40px + 2rem));
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-image: url("../../../../public/assets/images/mountain.png"); */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-bottom: 1rem;
+}
+
+#homeBannerMain h1 {
+    color: #2196F3;
+    font-size: 90px;
+    font-family: "Comfortaa", cursive;
+    z-index: 10;
+}
+
+h2 {
+    color: #2196F3;
+    font-family: "Comfortaa", cursive;
+    padding-bottom: 10px;
+    font-weight: normal;
+    z-index: 10;
+}
+
+#top-cloud {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 25%;
+    margin-right: 25%;
+}
+
+#bottom-cloud {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 25%;
+    margin-left: 25%;
+
+}
+
+#mountain {
+
+    position: absolute;
+    z-index: 0;
+
+
+}
+
+#mypic {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,34 @@
+#footerMain {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    color: #40514E;
+    font: 16px "Comfortaa", serif;
+    background-color: rgb(34, 34, 34);
+    padding: 50px 0px 20px;
+    margin-top: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+#copyright {
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+    margin: 12px 0px;
+}
+
+.footer-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px 5px;
+
+}
+
+.footer-icon:hover {
+    filter: brightness(1.2);
+    /* Adjust the brightness value to change the color intensity */
+}

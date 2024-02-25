@@ -1,0 +1,50 @@
+h3 {
+    font: "Comfortaa", cursive;
+    color: #2195f360;
+}
+
+#btn-404 {
+    --color: #2196F3;
+    font-family: "Comfortaa", serif;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    margin: 10px;
+    font-size: 17px;
+    z-index: 1;
+    color: #2196F3;
+    border: 2px solid #2196F3;
+    border-radius: 8px;
+    position: relative;
+}
+
+#btn-404:before {
+    position: absolute;
+    content: "";
+    background: #2196F3;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+#btn-404:hover {
+    color: #fff;
+}
+
+#btn-404:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+}
+
+#btn-404:hover::before {
+    top: -30px;
+    left: -30px;
+}
+
+#pic404{
+    width: 400px;
+}

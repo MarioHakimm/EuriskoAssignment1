@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+.App {
+  min-height: calc(100vh - 300px);
+  padding-bottom: 300px;
+  position: relative;
+  text-align: center;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
